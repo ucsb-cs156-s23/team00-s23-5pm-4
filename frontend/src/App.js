@@ -8,12 +8,11 @@ import SanFranciscoPage from "main/pages/SanFranciscoPage";
 import ZzyzxPage from "main/pages/ZzyzxPage";
 import SantaCruzPage from "main/pages/SantaCruzPage";
 import SanDiegoPage from "main/pages/SanDiegoPage";
+import NewYorkPage from "main/pages/NewYorkPage";
 
 import "bootstrap/dist/css/bootstrap.css";
 
-
 function App() {
-
   return (
     <BrowserRouter basename="/team00-s23-5pm-4">
       <Routes>
@@ -26,6 +25,7 @@ function App() {
         <Route exact path="/towns/Zzyzx" element={<ZzyzxPage />} />
         <Route exact path="/towns/SantaCruz" element={<SantaCruzPage />} />
         <Route exact path="/towns/SanDiego" element={<SanDiegoPage />} />
+        <Route exact path="towns/NewYork" element={<NewYorkPage />} />
       </Routes>
     </BrowserRouter>
   );

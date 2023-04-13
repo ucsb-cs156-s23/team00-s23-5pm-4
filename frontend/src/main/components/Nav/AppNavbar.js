@@ -4,7 +4,13 @@ import { Link } from "react-router-dom";
 export default function AppNavbar() {
   return (
     <>
-      <Navbar expand="xl" variant="dark" bg="dark" sticky="top" data-testid="AppNavbar">
+      <Navbar
+        expand="xl"
+        variant="dark"
+        bg="dark"
+        sticky="top"
+        data-testid="AppNavbar"
+      >
         <Container>
           <Navbar.Brand as={Link} to="/">
             Demo React Example
@@ -28,11 +34,12 @@ export default function AppNavbar() {
                 <NavDropdown.Item as={Link} to="/towns/Zzyzx">Zzyzx</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/towns/SantaCruz">Santa Cruz</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/towns/SanDiego">San Diego</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/towns/NewYork">New York</NavDropdown.Item>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
-        </Container >
-      </Navbar >
+        </Container>
+      </Navbar>
     </>
   );
 }
