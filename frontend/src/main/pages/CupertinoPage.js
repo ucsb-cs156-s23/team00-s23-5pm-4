@@ -8,8 +8,8 @@ export default function CupertinoPage() {
         <p>
          <b>Cupertino, California</b> is a city in Santa Clara county, to
          the west of San Jose. Often called the heart of Silicon Valley, 
-         Cupertino contains many big companies, such as Apple, and very
-         overly expensive resteraunts.
+         Cupertino contains many big companies, such as Apple, and very 
+         expensive resteraunts.
         </p>
         <p>Added by Anikait M.</p>
       </div>
