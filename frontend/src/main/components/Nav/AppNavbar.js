@@ -25,35 +25,16 @@ export default function AppNavbar() {
           <Navbar.Collapse>
             {/* This `nav` component contains all navigation items that show up on the left side */}
             <Nav className="me-auto">
-              <NavDropdown
-                title="Towns"
-                id="appnavbar-towns"
-                data-testid="appnavbar-towns"
-              >
-                <NavDropdown.Item as={Link} to="/towns/ArroyoGrande">
-                  Arroyo Grande
-                </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/towns/AvilaBeach">
-                  Avila Beach
-                </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/towns/LosAlamos">
-                  Los Alamos
-                </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/towns/Cupertino">
-                  Cupertino
-                </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/towns/SanFrancisco">
-                  San Francisco
-                </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/towns/Zzyzx">
-                  Zzyzx
-                </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/towns/SantaCruz">
-                  Santa Cruz
-                </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/towns/NewYork">
-                  New York
-                </NavDropdown.Item>
+              <NavDropdown title="Towns" id="appnavbar-towns" data-testid="appnavbar-towns" >
+                <NavDropdown.Item as={Link} to="/towns/ArroyoGrande">Arroyo Grande</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/towns/AvilaBeach">Avila Beach</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/towns/LosAlamos">Los Alamos</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/towns/Cupertino">Cupertino</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/towns/SanFrancisco">San Francisco</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/towns/Zzyzx">Zzyzx</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/towns/SantaCruz">Santa Cruz</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/towns/SanDiego">San Diego</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/towns/NewYork">New York</NavDropdown.Item>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
